@@ -1,0 +1,219 @@
+.words{
+    font-size: 2rem;
+    font-family: "Noto Sans", serif;
+    margin: 1px;
+    margin-left: 5rem;
+    color:rgb(34, 21, 21);
+    z-index: 2; 
+}
+.words2{
+    font-size: 2rem;
+    font-family: "Noto Sans", serif;
+    margin: 1px;
+    color:rgb(34, 21, 21);
+}
+.marginT{
+    margin-top: 100px;
+}
+.name-main{
+    font-size: 5rem;
+}
+#hero{
+    height: 100vh;
+}
+.gradient-bg{
+    background: radial-gradient( #2ef5ff, #99ffe4, #59ffb2);
+    animation: gradient-animation 18s ease infinite;
+    background-size: 180% 180%;
+    position:relative; 
+    overflow: hidden;  
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    0% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.container-one{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.sunflower{
+    position: absolute;
+    bottom:-5px;
+    left:550px;
+    z-index: 1; 
+}
+.container-two{
+    height:80vh;
+}
+.dog{
+    margin-top:60px; 
+    border-radius: 100px;
+    position: relative; 
+    overflow: hidden;  
+    z-index: 5;
+}
+.about{
+    font-family: "Noto Sans", serif;
+    margin-top: 20px;
+    font-size:1.2rem;
+    text-align: center;
+    width:500px; 
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#resume{
+    height: 200vh; 
+    width: 100%; 
+    background-color: rgb(237, 240, 239);
+}
+.leaf1{
+   position: absolute; 
+    top: 113%; 
+    left: 20%; 
+    z-index: 0;
+}
+.leaf2{
+    position:absolute; 
+    top : 113%; 
+    right: 20%; 
+    z-index: 0;
+}
+.center{
+    text-align: center;
+}
+
+body {
+	background-color: #f8fafc;
+}
+
+.container {
+	padding: 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; 
+	scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.logo{
+    width: 60px; 
+    height: 100%;
+}
+
+.logocontainer{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+#contact{
+    background-color: rgb(237, 240, 239);
+    height: 60vh;
+    overflow: hidden;
+}
+
+#footer{
+    background-color: rgb(34, 21, 21);
+    height: 20vh;
+    overflow: hidden;
+}
+
+.container-five{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    align-items: center;  
+}
+.footertxt{
+    font-size: 1.2rem;
+    font-family: "Noto Sans", serif;
+    font-weight: 200;
+    color:rgba(237, 240, 239, 0.723);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 20px;
+    padding-top : 25px;
+    display: inline-flex; 
+    justify-content: center;
+}
+
+
+.footertxt:hover {
+    color:rgb(237, 240, 239);
+}
+
+.credits{
+    font-family: "Noto Sans", serif;
+    font-weight: 180;
+    color: rgba(237, 240, 239, 0.723);
+    width: 100%; 
+    text-align: center;  
+    margin-top: 8px;
+}
+
